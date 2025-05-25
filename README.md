@@ -12,29 +12,29 @@ Database (PostgreSQL)
 
 Search Engine (Elasticsearch)
 
-Requirements:
+# Requirements:
 
 Security:
 
-HTTPS/TLS encryption
+* HTTPS/TLS encryption
 
-Secure API endpoints (JWT/OAuth)
+* Secure API endpoints (JWT/OAuth)
 
-Regular security patches
+* Regular security patches
 
 Scalability:
 
-Horizontal scaling for Django workers
+* Horizontal scaling for Django workers
 
-Database read replicas
+* Database read replicas
 
-Load balancing
+* Load balancing
 
 Cost-Effectiveness:
 
-Use managed services (e.g., AWS RDS, Elasticache)
+* Use managed services (e.g., AWS RDS, Elasticache)
 
-Auto-scaling based on traffic
+* Auto-scaling based on traffic
 
-Spot instances for non-critical components
+* Spot instances for non-critical components
 
